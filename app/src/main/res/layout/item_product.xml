@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivProductImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/default_image"/>
+
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:text="Product"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="0"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAdd"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_add"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRemove"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/betton_remove"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginLeft="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
