@@ -41,7 +41,7 @@
         android:id="@+id/btnRemove"
         android:text="-"
         android:textColor="#FFFFFF"
-        android:background="@drawable/betton_remove"
+        android:background="@drawable/button_remove"
         android:textSize="16sp"
         android:padding="12dp"
         android:layout_marginLeft="6dp"

@@ -10,11 +10,15 @@
         android:text="Welcome! Please Login"
         android:textSize="24sp"
         android:layout_width="match_parent"
+        android:fontFamily="cursive"
+
         android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btn_login"
         android:text="Login"
         android:layout_width="match_parent"
+        android:fontFamily="cursive"
+
         android:layout_height="wrap_content"/>
 </LinearLayout>
